@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FORMS</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <style>
+            h1{text-align: center;}
+            fieldset{width: 500px;}
+            form{background-color:rgb(245, 204, 175); box-shadow: 3px 3px 3px black;}
+        </style>
+        <center>
+            <fieldset>
+                <form>
+                    <table>
+                        <tr>
+                        <td><label>First Name</label> </td>
+                                <td><input type="text"></td>
+                            </tr>
+                        <tr>
+                        <td> <label>Last Name</label></td>
+                        <td> <input type="text"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Gender</label></td>
+                            <td><input type="radio" name="Gender">Male <!-- radio value is used for getting single option from the user-->
+                                <input type="radio" name="Gender">Female 
+                                <input type="radio" name="Gender">Do not want to specify 
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label> City </label></td>
+                            <td><select name="city" id="city">
+                                <option >Select a city</option>
+                                <option >Istanbul</option>
+                                <option >Berlin</option>
+                                <option >London</option>
+                                <option >Paris</option>
+                                <option >Athena</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label> Email </label></td>
+                            <td><input type="text"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label> Personal Website </label></td>
+                            <td><input type="text"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Phone</label></td>
+                            <td><input type="tel"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Hobbies</label></td>
+                            <td><input type="checkbox" name="Hobbies">Reading
+                                <br>
+                                <input type="checkbox" name="Hobbies">Hiking 
+                                <br>
+                                <input type="checkbox" name="Hobbies">Basketball
+                                <br>
+                                <input type="checkbox" name="Hobbies">Volleyball
+                                <br>
+                                <input type="checkbox" name="Hobbies">Jogging 
+                                <br>
+                                <input type="checkbox" name="Hobbies">Others
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Profile Picture</label></td>
+                            <td><input type="file"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Date Of Birth</label></td>
+                            <td><input type="date"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label >Address</label></td>
+                            <td>
+                                <textarea cols="30" rows="10" maxlength="240" placeholder="Type your address please (maxlength=240)"></textarea> 
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="submit" value="Register" style="padding: 5px; font-weight: bold;"></td>
+                        </tr>
+                    </table>
+                </form>
+            </fieldset>
+        </center>
+    </body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form-Homework</title>
+        <style>
+            body{background-color: antiquewhite; }
+        </style>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <style>
+            h1{ text-align: center; color: rgb(6, 0, 10);}
+            fieldset{width: 600px; text-align: left;}
+            form{
+                background-color: bisque;
+                box-shadow: 5px 1px 10px black;
+            }
+            input{background-color: whitesmoke;}
+        </style>
+        <center>
+            <fieldset>
+                <legend style="text-align: center; color: rgb(10, 1, 17);">Form</legend>
+                    <form style="color: black; ">
+                        <label for="first name">First Name</label>
+                        <input type="text" id="first name" name="first name" placeholder="Type your first name">
+
+                        <br><br>
+
+                        <label for="last name">Last Name</label>
+                        <input type="text" id="last name" name="last name" placeholder="Type your last name">
+
+                        <br><br>
+
+                        <label>Gender</label>
+                        <label for="radio">Male</label>
+                        <input type="radio" name="gender" id="radio">
+                        <label for="radio">Female</label>
+                        <input type="radio" name="gender" id="radio">
+                        <label for="radio">Don't want to specify</label>
+                        <input type="radio" name="gender" id="radio">
+
+                        <br><br>
+
+                        <label for="city">City</label>
+                        <select name="city" id="city" name="city">
+                            <option >Select</option>
+                            <option >Istanbul</option>
+                            <option >London</option>
+                            <option >Berlin</option>
+                            <option >Paris</option>
+                        </select>
+
+                        <br><br>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Type your email">
+
+                        <br><br>
+
+                        <label for="pw">Personal Website</label>
+                        <input type="text" id="pw" name="pw" placeholder="Type your personal website">
+
+                        <br><br>
+
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required pattern="[0-9](10)">
+
+                        <br><br>
+
+                        <label>Hobbies:</label>
+                        <br>
+                        <label for="Football">Football</label>
+                        <input type="checkbox" name="football" id="football">
+
+                        <label for="reading">Reading</label>
+                        <input type="checkbox" name="reading" id="reading">
+
+                        <label for="hiking">Hiking</label>
+                        <input type="checkbox" name="hiking" id="hiking">
+
+                        <label for="jogging">Jogging</label>
+                        <input type="checkbox" name="jogging" id="jogging">
+
+                        <label for="others">Others</label>
+                        <input type="checkbox" name="others" id="others">
+
+                        <br><br>
+
+                        <label for="image">Profile Picture</label>
+                        <input type="file" name="image" id="image">
+
+                        <br><br>
+
+                        <label for="date">Date Of Birth</label>
+                        <input type="date" name="date" id="date">
+
+                        <br><br>
+                        <label for="textArea" style="float: left;">Address</label>
+
+                        <br>
+                        <textarea name="myText" id="textArea" cols="30" rows="10" placeholder="Please type your address"></textarea>
+
+                        <br><br>
+
+                        <input type="button" value="Register">
+                        <input type="reset" value="Reset">
+                </form>
+            </fieldset>
+        </center>
+    </body>
+</html>
